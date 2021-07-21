@@ -30,4 +30,16 @@ npm run test
 You can run test with jest --coverage=true via
 
 ```
-npm run coverage
+npm run test-coverage
+
+You can edit your code with prettier by running
+
+```
+npm run prettier-format
+```
+
+You can check your code with Eslint by running
+
+```
+npm run lint
+```
