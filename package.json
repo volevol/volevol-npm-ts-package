@@ -5,8 +5,8 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
-    "test-coverage": "jest --config jestconfig.json --coverage",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
     "build": "tsc",
     "lint": "eslint . --ext .ts",    
     "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
@@ -41,5 +41,8 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "ts-jest-config": "~1.0.0"
+  }
 }

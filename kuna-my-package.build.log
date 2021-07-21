@@ -1,0 +1,5 @@
+Error calculating the state of the repo. (inner error: Error: git hash-object exited with status 128: fatal: Unable to hash /home/ivan/Рабочий стол/rush-monorepo/libraries/kuna-my-package
+). Continuing without diffing files.
+
+Invoking: tsc 
+
