@@ -31,6 +31,7 @@ You can run test with jest --coverage=true via
 
 ```
 npm run test-coverage
+```
 
 You can edit your code with prettier by running
 
